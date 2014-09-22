@@ -573,6 +573,7 @@ glCtx.vertexAttribPointer(this._glHandler, {
 
 ```javascript
 define('lib/common/fn', function (require) {
+    'use strict';
     var $ = require('jquery'), // just for example
         fn = {};
         
