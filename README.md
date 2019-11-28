@@ -568,12 +568,12 @@ glCtx.vertexAttribPointer(this._glHandler, {
 ```
 
 ## Модули
-* Всегда при объявлении модуля передаем в первый параметр путь относительно папки `/frontend/js/`
 * Всегда используем `'use strict';` в верху объявления модуля
 
 ```javascript
-define('lib/common/fn', function (require) {
+define(function (require) {
     'use strict';
+
     var $ = require('jquery'), // just for example
         fn = {};
         
